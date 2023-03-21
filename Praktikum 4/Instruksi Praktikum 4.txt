@@ -1,0 +1,45 @@
+	Buatlah sebuah Game yang memungkinkan penggunanya
+1. Daftar
+2. Login
+3. Membuka Backpack
+4. Menemukan musuh (Bertualang) (Musuh memiliki serangan & darah yang berbeda (Minimal 2) )
+5. Darah berkurang, darah bertambah, menambah item, mengurangi item
+5. Menggunakan Item (Potion (Obat))
+6. Logout
+
+yang dibutuhkan : 
+1. Class Player (Agar dapat membuat banyak akun)
+2. Class Enemy (Agar dapat membuat banyak jenis musuh)
+3. Class Backpack (Class ini menjadi atrribut di class player & turaunannya (Player mempunyai Backpack) 
+4. Class turunan dari Player untuk membuat role (Magician dan Fighter )
+
+Kreasikan sebaik mungkin namun semua ketentuan HARUS TERPENUHI !
+
+Gunakan metode yang sudah dipelajari !
+Khususnya (Object, inheritance & try and catch)
+
+Great! It sounds like you have a clear idea of what you want to achieve with your program. To continue building it, you can follow these steps:
+
+1. Create the Enemy class with attributes such as attack and health. You can also create different types of enemies by extending the Enemy class.
+
+2. Create the Backpack class with attributes such as items and their quantity. This class will be an attribute of the Player class.
+
+3. Create the Magician and Fighter classes by extending the Player class. These classes can have additional attributes and methods specific to their role.
+
+4. Implement the register and login functionalities by taking input from the user and storing it in an appropriate data structure, such as a HashMap or ArrayList.
+
+5. Implement the open backpack functionality by creating a method in the Player class that returns the Backpack object.
+
+6. Implement the find enemies functionality by creating a method in the Enemy class that generates a random enemy with different attacks and health.
+
+7. Implement the decrease and increase blood functionalities by creating methods in the Player and Enemy classes that modify the health attribute.
+
+8. Implement the increase and decrease item functionalities by creating methods in the Backpack class that modify the quantity attribute of the item.
+
+9. Implement the using items functionality by creating a method in the Backpack class that modifies the health attribute of the Player or Enemy class based on the type of item used.
+
+10. Finally, implement the logout functionality by allowing the user to exit the program or go back to the login screen.
+
+Remember to use inheritance and try-catch blocks wherever necessary to ensure efficient code and proper handling of errors.
+
+Good luck with your project!
